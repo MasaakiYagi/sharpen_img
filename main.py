@@ -3,7 +3,7 @@ from PIL import Image
 import numpy as np
 
 def main():
-    st.title('ピンボケ除去')
+    st.title('ピンボケ除去(うそ)')
     st.write('〇画像アップロード')
     uploaded_file = st.file_uploader("画像をアップロードしてください。")
     image=Image.open(uploaded_file)
